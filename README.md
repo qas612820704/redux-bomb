@@ -4,6 +4,8 @@
 
 This middleware will fork 2 more actions when every dispatching.
 
+![Demo](./_github/demo.gif)
+
 ## Installation
 
 ```sh
@@ -32,8 +34,6 @@ store.dispatch({ type: 'INCREMENT' });
   A beautiful flushing screen
 */
 ```
-
-![Demo](./_github/demo.gif)
 
 ### with-delay
 
