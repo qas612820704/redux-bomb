@@ -1,0 +1,42 @@
+{
+  "name": "redux-bomb",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Bomb middleware for Redux.",
+  "repository": "github:qas612820704/redux-bomb",
+  "keywords": [
+    "useless",
+    "redux",
+    "bomb",
+    "redux-middleware"
+  ],
+  "files": [
+    "lib",
+    "src"
+  ],
+  "author": "Lego <qas612820704@gmail.com>",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:@babel/register",
+    "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+    "clean": "rimraf lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "cross-env": "^5.2.0",
+    "eslint": "5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "mocha": "^6.0.2",
+    "redux": "^4.0.1"
+  }
+}
